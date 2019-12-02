@@ -1,8 +1,8 @@
 //Sets lighting and other environment parameters
 
-skybox = ./SkyBoxes/simple/       // Teide Simple
+skybox = ./SkyBoxes/nebula/       // Teide Simple
 skyboxUp = 0 1 0   //Default is y up
-skyColor = 0.933 0.510 0.933
+#skyColor = 0.933 0.510 0.933
 
 
 CameraFOV = 50

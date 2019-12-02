@@ -6,7 +6,11 @@ objModel = Floor_Modular.obj
 
 [Floor]
 scalexyz 30 .1 30
-flatModel = cube.txt 
+flatModel = cube.txt
+
+[Llama-Jump]
+scale .2
+childDir = Llama/Jump/
 
 [Horse-Walk]
 scale .2

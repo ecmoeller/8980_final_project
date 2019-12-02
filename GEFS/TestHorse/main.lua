@@ -75,7 +75,7 @@ setModelMaterial(floor,"Flooring")
 i = 1 --Lau is typically 1-indexed
 horse = {}
 speed = {}
-horse[i] = addModel("Horse-Walk",0,1,0); speed[i] = 1.1; i = i+1
+horse[i] = addModel("Llama-Jump",0,1,0); speed[i] = 1.1; i = i+1
 horse[i] = addModel("Horse-Dash",0,1,0); speed[i] = 3.0; i = i+1
 horse[i] = addModel("Horse-Jump",0,1,0); speed[i] = 1.2; i = i+1 --No one velocity is right!
 horse[i] = addModel("Horse-Fall",0,1,0); speed[i] = 0.0; i = i+1
