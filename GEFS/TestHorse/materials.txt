@@ -9,3 +9,11 @@ metallic = 0
 smoothness = 0.4
 ior = 1.5
 color = 0.6 0.4 0.2
+
+[Gold]
+metallic = .9
+smoothness = 0.8
+ior = 2.0
+reflectiveness = 0.01
+color = 1 .8 .14
+color = .85 .65 .13

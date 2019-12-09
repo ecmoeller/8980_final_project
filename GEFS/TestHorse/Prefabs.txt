@@ -12,6 +12,10 @@ flatModel = cube.txt
 scale .2
 childDir = Llama/Jump/
 
+[Snake-Attack]
+scale .2
+childDir = Angry_snake/attack/
+
 [Horse-Walk]
 scale .2
 childDir = Horse/Walk/
@@ -27,3 +31,7 @@ childDir = Horse/Jump/
 [Horse-Fall]
 scale .2
 childDir = Horse/Fall/
+
+[Tree]
+scale .15
+objModel = Poplar_Tree.obj
