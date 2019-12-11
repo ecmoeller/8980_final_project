@@ -10,10 +10,10 @@ CameraFOV = 50
 ambientLight = .3 .3 .3
 
 [Sun]
-lightDir = -.3 -1.0 .4   #-4 -10 -1
+lightDir = -.3 -1.0 .4  #-4 -10 -1 
 lightDist = 5
 lightCol = .9 .9 1
 lightIntensity = 4
-lightCastShadow //only the one light can cast a shadow
+ //only the one light can cast a shadow lightCastShadow
 shadowBias = .004
 shadowFrustum = -6 6 -6 6 1 10 //left, right, bottom, top, near, far planes

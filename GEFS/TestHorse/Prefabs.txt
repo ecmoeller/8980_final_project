@@ -5,7 +5,7 @@ scalexyz 1 1 1
 objModel = Floor_Modular.obj
 
 [Floor]
-scalexyz 30 .1 30
+scalexyz 11 .1 11
 flatModel = cube.txt
 
 [Llama-Jump]
@@ -35,3 +35,7 @@ childDir = Horse/Fall/
 [Tree]
 scale .15
 objModel = Poplar_Tree.obj
+
+[Crystal]
+scale 0.4
+objModel = Crystal.obj
