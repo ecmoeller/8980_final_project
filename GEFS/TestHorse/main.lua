@@ -76,8 +76,7 @@ function animateSnake(dt)
     --figure out when to turn around
     if snakePos > 5 then
       moveRightSnake = false 
-      --rotate model
-      --rotateModel(modelID,rotYvel*dt, 0, 1, 0)
+      --Should rotate model here
     end
 
   else 
@@ -86,15 +85,9 @@ function animateSnake(dt)
     --figure out when to turn around
     if snakePos < -4 then
       moveRightSnake = true 
-      --rotate model
+      --Should rotate model here
     end
   end 
-
-  --Update the camera based on radius and theta
-  -- CameraPosX = radius*math.cos(theta)
-  -- CameraPosZ = radius*math.sin(theta)
-  -- CameraDirX = -CameraPosX
-  -- CameraDirZ = -CameraPosZ
 
   t = t + dt
   if t > 1 then
@@ -154,8 +147,6 @@ function mainAnimalCrystalCollision()
   horseCollision = getCollisionsWithLayer(math.floor(horse[curAction]), 0)
 
   if crystalCollision ~= nil and horseCollision ~= nil then
-    print("ColliderID for crystal"..crystalCollision)
-    print("ColliderID for horse"..horseCollision)
 
     --Main animal is colliding with a crystal
     if crystalCollision == horse[curAction] or horseCollision == prize[prizeIdx] then
@@ -164,7 +155,6 @@ function mainAnimalCrystalCollision()
       deleteModel(prize[prizeIdx])
 
       --Add another crystal in a new location?
-
     end
   end
 end
