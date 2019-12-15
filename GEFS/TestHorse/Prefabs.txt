@@ -32,8 +32,12 @@ childDir = Horse/Jump/
 scale .2
 childDir = Horse/Fall/
 
+[Pig-Jump]
+scale .2
+childDir = Pig/Jump/
+
 [Tree]
-scale .15
+scale .3
 objModel = Poplar_Tree.obj
 
 [Crystal]

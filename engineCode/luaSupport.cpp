@@ -293,6 +293,13 @@ int getCollisionsWithLayer(lua_State * L){
 		modelID = (int)lua_tonumber(L, 1);
 		layer = (int)lua_tonumber(L, 2);
 		colliderModelID = getCollision(models[modelID].collider,layer);
+		//print out colliders for all models
+		// for (int i = 0; i < numModels; i++){
+		// 	if(i == 1194 || i == 1148){
+		// 		printf("Collider model id: %d, for modelID %d \n",models[i].collider, i);
+		// 	}
+			
+		// }
 	}
 	else{
 		float x,y,z,r;
@@ -303,12 +310,16 @@ int getCollisionsWithLayer(lua_State * L){
 		layer = (int)lua_tonumber(L, 5);
 		colliderModelID = getCollision(x,y,z,r,layer);
 	}
+	//printf("COLLIDER MODEL ID: %d",colliderModelID);
 	if (colliderModelID < 0) return 0; //No return values
+
+	
 	
 	lua_pushinteger(L, colliderModelID);
 	
 	return 1;
 }
+
 
 int findModel(lua_State * L){
 	int modelID = -1;
