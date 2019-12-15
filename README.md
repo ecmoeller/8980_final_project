@@ -1,4 +1,4 @@
-# 8980-scripted-game [Memory Tiles]
+# 8980-Final_Project [Llama collects crystals game]
 CSCI 8980 - Real-time Game Engine Design, Final Project
 
 - Emily Moeller, [ecmoeller](https://github.com/ecmoeller)
